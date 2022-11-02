@@ -15,7 +15,7 @@ import HelloWorld from './components/HelloWorld.vue'
     <a href="https://vuestic.dev/" target="_blank">
       <img src="./assets/vuestic.png" class="logo vuestic" alt="Vuestic logo" />
     </a>
-    <a href="https://vuestic.dev/" target="_blank">
+    <a href="https://tailwindcss.com/" target="_blank">
       <img src="./assets/tailwind.svg" class="logo tailwind" alt="Tailwind logo" />
     </a>
   </div>
