@@ -8,9 +8,9 @@ const count = ref(0)
 </script>
 
 <template>
-  <h1 class="va-h1">{{ msg }}</h1>
+  <h1 class="va-h1 text-center">{{ msg }}</h1>
 
-  <div class="mt-4 pa-4">
+  <div class="mt-4 pa-4 text-center">
     <div class="flex items-center justify-center gap-2">
       <va-button type="button" @click="count++">count is {{ count }}</va-button>
       <ThemeSwitchButton />
