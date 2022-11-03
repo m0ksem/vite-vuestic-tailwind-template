@@ -7,6 +7,10 @@
 
   const { applyPreset, currentPresetName } = useColors()
 
+  const isDarkTheme = Boolean(window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches)
+
+  applyPreset(isDarkTheme ? 'dark' : 'light')
+
   const switchPreset = () => {
     if (currentPresetName.value === 'light') {
       applyPreset('dark')
