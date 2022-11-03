@@ -6,7 +6,7 @@ import ShowCase from './components/ShowCase.vue'
 </script>
 
 <template>
-  <div class="flex items-center">
+  <div class="flex items-center flex-wrap justify-center">
     <a href="https://vitejs.dev" target="_blank">
       <img src="/vite.svg" class="logo" alt="Vite logo" />
     </a>
@@ -30,6 +30,7 @@ import ShowCase from './components/ShowCase.vue'
   height: 12em;
   padding: 1.5em;
   will-change: filter;
+  object-fit: contain;
 }
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
